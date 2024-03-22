@@ -1,25 +1,81 @@
-*
-{
-    box-sizing:border-box
+* {
+  box-sizing: border-box;
 }
 
 img {
-    display:block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
-    color:inherit
+  text-decoration: none;
+  color: inherit;
 }
 
-ul{
-    list-style:none;padding-left:0;
-    margin-top:0;
-    margin-bottom:0;
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body {
-    margin:0;
-    font-family:sans-serif;
+  margin: 0;
+  font-family: sans-serif;
+  color: #4d4f62;
+}
+
+.header {
+  width: 311px;
+  padding: 24px;
+  background-color: white;
+}
+
+.title-extralight {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.title-semibold {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.card {
+  position: relative;
+  padding: 28px;
+  width: 311px;
+  height: 222px;
+  background-color: white;
+  box-shadow: 0 15px 30px -11px rgb(131 166 210/0.5);
+  border-radius: 8px;
+  text-align: auto;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.card-icon {
+  margin-bottom: 28px;
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 150px;
+  left: 200px;
 }
